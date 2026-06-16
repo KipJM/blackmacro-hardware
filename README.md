@@ -64,6 +64,9 @@ Use standoffs and flathead M2 screws to attach the motor to the PCB. The standof
 perfectly aligned on top of the MT6701 magnetic encoder with the correct air gap. Unfortunately this means the push button functionality is not present, but you can
 add this feature back by replacing the standoffs with stiff springs.
 
+There are two solder jumpers letting you select how the motor controller chip should be activated. Use a soldering iron and a bit of solder, swipe right to bridge the connection, swipe left to break the connection. **You should only have one connected at a time.**
+I recommend setting it to SIG, if set to 3V3, the motor driver will stay on as long as there's power, and the MCU cannot command it to go to sleep through the SIG pin.
+
 ## Base board
 ![base_sch.png](promo/base_sch.png)
 
@@ -85,6 +88,8 @@ to the keyboard with an A-to-C cable. You can find extremely cheap 5.1k type-c e
 Extract the adapter, connect it to the pico, and glue it onto the PCB with double-sided tape. This is cheaper than fabbing a PCB and sourcing the resistors yourself.
 
 I recommend fabbing the base PCB in white for better RGB LED performance.
+
+When making the board interconnect cables, MAKE SURE the polarity is correct so that the correct pins are connected. You can see silkscreen showing reference pins.
 
 A stencil is not required, but flux/solder paste is recommended.
 
