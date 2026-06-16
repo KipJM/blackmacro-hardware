@@ -1,0 +1,36 @@
+,References,Value,Footprint,Quantity,Part,Link,Actual Total Cost (CNY)
+1,"C3, C4, C5, C6, C7, C8, C9, C10, C11, C12",0.1uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,10,CL31B104KBCNNNC,https://item.szlcsc.com/25237.html,- (SEE DIAL BOM)
+2,"R5, R6, R7, R8",8.2k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,4,0805W8F8201T5E,https://item.szlcsc.com/18516.html,1.44
+3,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24",1N4148WS,D_DO-35_SOD27_P7.62mm_Horizontal,24,1N4148WS THT,N/A,N/A (from inventory)
+4,U2,74HC238,SOIC-16_3.9x9.9mm_P1.27mm,1,"74HC238D,653",https://item.szlcsc.com/6071.html,3.67
+5,U3,SN74LVC1T45DBV,SOT-23-6_Handsoldering,1,SN74LVC1T45DBVR,https://item.szlcsc.com/8320.html,2.5
+6,A1,RaspberryPi_Pico_W,RaspberryPi_Pico_W_SMD_HandSolder,1,LOBOROBO pico 2W Type-C clone board ,N/A (MUST BE TYPE-C!) (a lot of vendors resell this same exact board),46
+7,"LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12, LED13, LED14, LED15, LED16, LED17, LED18, LED19, LED20, LED21",SK6812MINI-E,LED_MX_6028R,21,SK6812MINI-E,https://item.szlcsc.com/5773397.html,2.69
+8,"SW_LB1, SW_LB2, SW_LB3, SW_LB4, SW_LC1, SW_LC2, SW_LC3, SW_LC4, SW_LD1, SW_LD2, SW_LD3, SW_LD4, SW_LE1, SW_RB1, SW_RB2, SW_RB3",SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_1.00u,16,CPG151101S11-16,https://item.szlcsc.com/43288200.html,8.22
+9,"TP_KCOL1, TP_KCOL2, TP_KCOL3, TP_KCOL4, TP_KROW1, TP_KROW2, TP_KROW3, TP_KROW4, TP_KROW5, TP_KROW6, TP_LED1, TP_LED2",TestPoint,TestPoint_THTPad_D1.5mm_Drill0.7mm,12,N/A,N/A,
+10,"TP_3V1, TP_GND1, TP_VBUS1",VSYS test point,TestPoint_THTPad_D1.5mm_Drill0.7mm,3,N/A,N/A,
+11,"RENC1, RENC2",RotaryEncoder_Switch,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,2,(from inventory) By personal preference. EC11 rotary encoder with click input,N/A,N/A (from inventory)
+12,"ST_LA1, ST_LA2",2u,STAB_MX_2u,2,screw-in 2u stabilizers (very much by your personal preference),Random taobao vendor,16.9
+13,"SW_LA1, SW_LA2",SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_2.00u,2,(SAME AS 1.00u),(SAME AS 1.00u),-
+14,"SW_RA1, SW_RA2",SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_1.50u,2,(SAME AS 1.00u),(SAME AS 1.00u),-
+15,O1,OLED_Display,PinHeader_1x04_P2.54mm_Vertical,1,0.91in I2C OLED display module. Pin order must be (top to bottom)  SDA-SCL-VCC-GND,N/A,est. 6.4 (from inventory)
+16,ST_LE1,3u,STAB_MX_3u,1,screw-in 3u stabilizers,"stabs from 2u set, wires bought from random vendor",5
+17,SW_LE2,SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_3.00u,1,(SAME AS 1.00u),(SAME AS 1.00u),-
+18,SW_MOD1,Conn_01x02_Socket,SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm,1,N/A,N/A,
+19,TP1,SDA,TestPoint_THTPad_D1.5mm_Drill0.7mm,1,N/A,N/A,
+20,TP2,SCL,TestPoint_THTPad_D1.5mm_Drill0.7mm,1,N/A,N/A,
+21,J1,MOD Power,PinSocket_1x03_P2.54mm_Horizontal,1,NOT POPULATED,NOT POPULATED,
+22,J2,MOD I/O,PinSocket_1x03_P2.54mm_Horizontal,1,NOT POPULATED,NOT POPULATED,
+23,J3,Dial_PowerConn,JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,1,See dial BOM,See dial BOM,-
+24,J4,Dial_MagEncoderConn,JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal,1,See dial BOM,See dial BOM,-
+25,J5,Dial_MotorControlConn,JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal,1,See dial BOM,See dial BOM,-
+26,"extract PCB, glue onto labeled area on PCB",5.1k type-c adapter board,"5.1k Type-C adpater. Should have""5V/5.1K 480Mbps"" printed on metal housing",1,N/A,Random vendor,4.7
+27,N/A,Screws,M3*6 flat top hex,12,N/A,Random vendor,1.96
+28,N/A,Heat-set Inserts,M3*5mm*4mm,12,N/A,https://www.aliexpress.us/item/2255800046543591.html,3
+29,N/A,Key Switches,5-pin Cherry MX-style switch. Preferably translucent / has LED window,21,Gateron KS-3X1 (gateron browns) (very much up to personal preference),random taobao reseller,16.08
+30,"SW_LB1, SW_LB2, SW_LB3, SW_LB4, SW_LC1, SW_LC2, SW_LC3, SW_LC4, SW_LD1, SW_LD2, SW_LD3, SW_LD4, SW_LE1, SW_RB1, SW_RB2, SW_RB3",1u Keycaps,1u Keycaps,16,"(from inventory) DSA, up to personal preference",N/A,est. 20 (from inventory)
+31,"SW_LA1, SW_LA2",2u keycaps,2u keycaps,2,"DSA, up to personal preference",N/A,18
+32,"SW_RA1, SW_RA2",1.5u keycaps,1.5u keycaps,2,"DSA, up to personal preference",N/A,15
+33,SW_LE2,3u keycap,3u keycap,1,"XDA, up to personal preference",N/A,8.5
+34,N/A,PCB,N/A,1,N/A,N/A,93.9
+,,,,,,TOTAL,247.56

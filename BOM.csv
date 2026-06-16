@@ -1,0 +1,39 @@
+Category,Part Name,Quantity,Unit Cost (CNY),Total Cost (CNY),Notes,Link
+CAPACITORS,CL31B104KBCNNNC,15,0.93,13.95,"10 from base + 5 from dial, 0.1uF",https://item.szlcsc.com/25237.html
+CAPACITORS,CL32A226KAJNNNE,1,1.71,1.71,"Dial BOM, 22uF",https://item.szlcsc.com/53320.html
+RESISTORS,0805W8F8201T5E,4,0.36,1.44,"Base BOM, 8.2kOhms pull-down",https://item.szlcsc.com/18516.html
+DIODES,1N4148WS THT,24,0.15,3.6,,N/A
+ICs,74HC238D,1,3.67,3.67,Base BOM,https://item.szlcsc.com/6071.html
+ICs,SN74LVC1T45DBVR,1,2.5,2.5,Base BOM,https://item.szlcsc.com/8320.html
+ICs,TMC6300-LA-T,1,27.6,27.6,Dial BOM,https://item.szlcsc.com/6005328.html
+ICs,MT6701CT-STD-R,1,7.23,7.23,Dial BOM,https://item.szlcsc.com/3489938.html
+MICROCONTROLLER,LOBOROBO pico 2W Type-C clone,1,46,46,MUST BE TYPE-C!,N/A
+CONNECTORS,PH-8AWD,4,2.82,11.28,Dial J1 + Base J4-J5,https://item.szlcsc.com/21938977.html
+CONNECTORS,EH-3AWD,2,1.79,3.58,Dial J3-J4 + Base J3,https://item.szlcsc.com/23924585.html
+CONNECTORS,PHR-8,2,1.78,3.55,,https://item.szlcsc.com/169298.html
+CONNECTORS,EHR-3,2,1.85,3.69,,https://item.szlcsc.com/173041.html
+CONNECTORS,5.1k Type-C adapter board,1,4.7,4.7,5V/5.1K 480Mbps printed on metal housing,Random vendor
+LEDs,SK6812MINI-E,21,0.13,2.69,,https://item.szlcsc.com/5773397.html
+SWITCHES,CPG151101S11-16,21,0.51,10.71,5-pin Kailh MX-style hotswap,https://item.szlcsc.com/43288200.html
+STABILIZERS,Screw-in 2u stabilizers,2,8.45,16.9,Very much by personal preference,Random taobao vendor
+STABILIZERS,Screw-in 3u stabilizer,1,5,5,Stabs from 2u set,Random taobao vendor
+ROTARY ENCODERS,EC11 rotary encoder,2,11,22,By personal preference. With click input,N/A
+DISPLAY,0.91in I2C OLED module,1,6.4,6.4,Pin order must be (top to bottom) SDA-SCL-VCC-GND,N/A
+FASTENERS,M2*9+4 Standoffs,3,0.66,1.99,Dial BOM,Aliexpress or local hardware store
+FASTENERS,M2*4 flat top hex screws,7,0.28,1.96,"Dial BOM, Flat top is not required but highly recommended!",Aliexpress or local hardware store
+FASTENERS,M3*6 flat top hex screws,12,0.16,1.96,"Base BOM, Flat top is not required but highly recommended!",Random vendor
+FASTENERS,M3*5mm heat-set inserts,12,0.25,3,Base BOM,https://www.aliexpress.us/item/2255800046543591.html
+FASTENERS,M2*5mm heat-set inserts,7,0.53,3.68,Dial BOM,N/A
+CRIMP TERMINALS,EH-T,1,2.69,2.69,,https://item.szlcsc.com/23924668.html
+CRIMP TERMINALS,BX-PH2.0-DZ,1,2.18,2.18,,https://item.szlcsc.com/19218392.html
+KEYCAPS,DSA 1u keycaps,16,1.25,20,Up to personal preference,N/A
+KEYCAPS,DSA 2u keycaps,2,9,18,Up to personal preference,N/A
+KEYCAPS,DSA 1.5u keycaps,2,7.5,15,Up to personal preference,N/A
+KEYCAPS,XDA 3u keycap,1,8.5,8.5,Up to personal preference,N/A
+SWITCHES,Gateron KS-3X1,21,0.77,16.08,5-pin Cherry MX-style. Preferably translucent / has LED window,Random taobao reseller
+PCB,Dial PCB & Stencil,1,73,73,Dial BOM,N/A
+PCB,Base PCB,1,93.9,93.9,Base BOM,N/A
+MOTOR,2804 BLDC motor,1,14,14,Lookup 2804 on Aliexpress; resellers use same three images,Aliexpress
+CASE,3D printed case,1,0,0,,N/A
+,,,,,,
+,TOTAL,,,474.14,,

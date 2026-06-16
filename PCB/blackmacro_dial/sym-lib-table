@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MagnTek") (type "KiCad") (uri "${KIPRJMOD}/lib/MagnTek.kicad_sym") (options "") (descr ""))
+	(lib (name "Trinamic") (type "KiCad") (uri "${KIPRJMOD}/lib/Trinamic.kicad_sym") (options "") (descr ""))
+)
