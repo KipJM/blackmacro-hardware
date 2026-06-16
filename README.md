@@ -30,6 +30,8 @@ but it can also emulate other inputs, such as smooth scrolling, volume control, 
 # License
 This project is licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal.
 
+Copyright (c) KIP 2026.
+
 # Folder Structure
 This project is made up of two PCBs and a case. The PCB project and production files can be found inside each board's folder within PCB/. For Bill of Materials, please also see each board's respective bom/bom.csv.
 
