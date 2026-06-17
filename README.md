@@ -62,7 +62,7 @@ Use each PCB's respective `{name}_bom.csv` for purchasing parts, I recommend usi
 The motor driver, TMC6300, is only available in QFN packages. I recommend purchasing a stencil along with your PCB (at least get solder paste and flux).
 You should get a cable along with your motor terminated on one side as a small JST male connector, you'll need to crimp a 3-pin JST EH connector on the other side.
 
-Use standoffs and flathead M2 screws to attach the motor to the PCB. The standoffs length is purposely chosen so the motor's builtin diametric magnet would be
+Use standoffs and flathead (as in the head is flat) M2 screws to attach the motor to the PCB. The standoffs length is purposely chosen so the motor's builtin diametric magnet would be
 perfectly aligned on top of the MT6701 magnetic encoder with the correct air gap. Unfortunately this means the push button functionality is not present, but you can
 add this feature back by replacing the standoffs with stiff springs.
 
