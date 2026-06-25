@@ -3482,7 +3482,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Module:RaspberryPi_Pico_W"
+		(symbol "MCU_Module:RaspberryPi_Pico_W_Extensive"
 			(pin_names
 				(offset 0.762)
 			)
@@ -3513,7 +3513,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
+			(property "Footprint" "Module:RaspberryPi_Pico_W_SMD"
 				(at 0 -46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3535,7 +3535,7 @@
 					)
 				)
 			)
-			(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
+			(property "Description" "Versatile and inexpensive wireless microcontroller module (with full pinout for test point and debug connections) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
 				(at 0 -52.07 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb wifi bluetooth"
+			(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb swd wifi bluetooth"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3557,7 +3557,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?W?SMD*"
+			(property "ki_fp_filters" "RaspberryPi?Pico?W?SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3568,7 +3568,7 @@
 					)
 				)
 			)
-			(symbol "RaspberryPi_Pico_W_0_1"
+			(symbol "RaspberryPi_Pico_W_Extensive_0_1"
 				(rectangle
 					(start -19.05 34.29)
 					(end 19.05 -31.75)
@@ -3630,7 +3630,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -31.75) (xy 1.27 -31.115) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
+						(xy 0 -31.75) (xy 1.27 -30.48) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
 					)
 					(stroke
 						(width 0)
@@ -3641,7 +3641,7 @@
 					)
 				)
 			)
-			(symbol "RaspberryPi_Pico_W_1_1"
+			(symbol "RaspberryPi_Pico_W_Extensive_1_1"
 				(pin bidirectional line
 					(at -22.86 15.24 0)
 					(length 3.81)
@@ -4512,6 +4512,172 @@
 						)
 					)
 					(alternate "VBUS_IN" power_in line)
+				)
+				(pin input line
+					(at -22.86 30.48 0)
+					(length 3.81)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 27.94 0)
+					(length 3.81)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 30.48 180)
+					(length 3.81)
+					(name "USB_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "USB_GND_IN" power_in line)
+				)
+				(pin bidirectional line
+					(at 22.86 27.94 180)
+					(length 3.81)
+					(name "USB_DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 25.4 180)
+					(length 3.81)
+					(name "USB_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 22.86 20.32 180)
+					(length 3.81)
+					(name "~{SMPS_PS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO23_UNSAFE" output line)
+					(alternate "~{SMPS_PS_UNSAFE}" output line)
+				)
+				(pin output line
+					(at 22.86 17.78 180)
+					(length 3.81)
+					(name "LED_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -27.94 0)
+					(length 3.81)
+					(name "~{BOOTSEL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
 			(embedded_fonts no)
@@ -6178,7 +6344,7 @@
 	)
 	(text_box "TODO:\nBased on what I gathered, the most efficient way to do this would be:\n3V3: VBUS -> battery charger -> Switch -> MOSFET -> VSYS -> pico -> 3V3,\n5V: bat -> switch -> MOSFET -> BOOST -> MOSFET w/ VBUS -> 5V, not going through pico"
 		(exclude_from_sim no)
-		(at 92.71 120.65 0)
+		(at 96.52 118.11 0)
 		(size 91.44 16.2161)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -24079,7 +24245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module:RaspberryPi_Pico_W")
+		(lib_id "MCU_Module:RaspberryPi_Pico_W_Extensive")
 		(at 71.12 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -24112,7 +24278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
+		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD"
 			(at 71.12 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -24134,7 +24300,7 @@
 				)
 			)
 		)
-		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
+		(property "Description" "Versatile and inexpensive wireless microcontroller module (with full pinout for test point and debug connections) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
 			(at 71.12 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -24244,7 +24410,7 @@
 		(pin "40"
 			(uuid "1e9e47df-174c-4d5b-ac90-08123004e4c1")
 		)
-		(pin "39"
+		(pin "D2"
 			(uuid "bb1b5be1-ea68-4e6a-8005-8770ef10a9f1")
 		)
 		(pin "13"
@@ -24264,6 +24430,33 @@
 		)
 		(pin "34"
 			(uuid "b6427390-9f8c-469f-a676-abe65ece0dff")
+		)
+		(pin "D1"
+			(uuid "303453c7-8148-4a82-8843-84365da74789")
+		)
+		(pin "39"
+			(uuid "0518b1a9-6dba-4265-b320-04c516c95dc0")
+		)
+		(pin "TP6"
+			(uuid "bf397d0a-f398-4271-89d0-7af9d51419eb")
+		)
+		(pin "TP4"
+			(uuid "e087aa4c-8de9-4c4a-843f-179a94afcb58")
+		)
+		(pin "TP5"
+			(uuid "35806305-2ac2-43ea-baec-655104b703e9")
+		)
+		(pin "TP2"
+			(uuid "22ed517d-5fdb-4810-a31d-b99a2ee92f3f")
+		)
+		(pin "TP3"
+			(uuid "ee0d942d-e211-4544-ae41-ca614d7b46aa")
+		)
+		(pin "D3"
+			(uuid "1f94107e-2ca4-47e2-9651-bf826f7fc6d6")
+		)
+		(pin "TP1"
+			(uuid "30bbb11b-7a82-4f0a-b7b7-6017ea858b71")
 		)
 		(instances
 			(project "blackmacro_base"
