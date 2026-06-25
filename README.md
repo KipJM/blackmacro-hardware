@@ -16,6 +16,8 @@ haptic feedback and buttery smooth scrolling when working through your video tim
 > ### Name
 > Help me pick a better name for this thing...
 
+> You're looking at version 2. For V1 archive switch to branch v1.
+
 # Why
 Bmacro (or Blackmacro keyboard) is designed to be an open source, leaner, customizable, and more powerful alternative to the Davinci Resolve Speed Editor keyboard.
 
