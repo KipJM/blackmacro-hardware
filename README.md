@@ -1,5 +1,10 @@
 # BMacro
 ![zine.png](promo/zine.png)
+
+> # V2 is work in progress!
+> the master branch hosts the V2 version of bmacro, which is currently unfinished. If you want to build a bmacro keyboard right now,
+> switch to branch #v1 for the old, usb-only version.
+
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
 Supports remappable keyboard input, smooth scrolling, MIDI input, or
