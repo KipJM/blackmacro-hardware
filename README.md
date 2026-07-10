@@ -37,6 +37,8 @@ but it can also emulate other inputs, such as smooth scrolling, volume control, 
 # License
 This project is licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal.
 
+Copyright (c) KIP 2026.
+
 # Folder Structure
 This project is made up of two PCBs and a case. The PCB project and production files can be found inside each board's folder within PCB/. For Bill of Materials, please also see each board's respective bom/bom.csv.
 
@@ -67,9 +69,12 @@ Use each PCB's respective `{name}_bom.csv` for purchasing parts, I recommend usi
 The motor driver, TMC6300, is only available in QFN packages. I recommend purchasing a stencil along with your PCB (at least get solder paste and flux).
 You should get a cable along with your motor terminated on one side as a small JST male connector, you'll need to crimp a 3-pin JST EH connector on the other side.
 
-Use standoffs and flathead M2 screws to attach the motor to the PCB. The standoffs length is purposely chosen so the motor's builtin diametric magnet would be
+Use standoffs and flathead (as in the head is flat) M2 screws to attach the motor to the PCB. The standoffs length is purposely chosen so the motor's builtin diametric magnet would be
 perfectly aligned on top of the MT6701 magnetic encoder with the correct air gap. Unfortunately this means the push button functionality is not present, but you can
 add this feature back by replacing the standoffs with stiff springs.
+
+There are two solder jumpers letting you select how the motor controller chip should be activated. Use a soldering iron and a bit of solder, swipe right to bridge the connection, swipe left to break the connection. **You should only have one connected at a time.**
+I recommend setting it to SIG, if set to 3V3, the motor driver will stay on as long as there's power, and the MCU cannot command it to go to sleep through the SIG pin.
 
 ## Base board
 ![base_sch.png](promo/base_sch.png)
@@ -92,6 +97,8 @@ to the keyboard with an A-to-C cable. You can find extremely cheap 5.1k type-c e
 Extract the adapter, connect it to the pico, and glue it onto the PCB with double-sided tape. This is cheaper than fabbing a PCB and sourcing the resistors yourself.
 
 I recommend fabbing the base PCB in white for better RGB LED performance.
+
+When making the board interconnect cables, MAKE SURE the polarity is correct so that the correct pins are connected. You can see silkscreen showing reference pins.
 
 A stencil is not required, but flux/solder paste is recommended.
 
