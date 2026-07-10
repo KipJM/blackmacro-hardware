@@ -6177,15 +6177,18 @@
 		)
 		(pin "8"
 			(uuid "e166f888-4b6e-4bba-be95-4ca9be237469")
+			(alternate "~{CS}")
 		)
 		(pin "5"
 			(uuid "ab4abde3-54da-4aa8-a0fb-ea14ddbee426")
 		)
 		(pin "7"
 			(uuid "d79e2eb3-e61f-4c9a-9ace-dda72d0da249")
+			(alternate "CLK")
 		)
 		(pin "6"
 			(uuid "2fe4c025-84b5-4f22-991b-100b0f55030e")
+			(alternate "DO")
 		)
 		(instances
 			(project "blackmacro_dial"
