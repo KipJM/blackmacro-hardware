@@ -23978,7 +23978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
