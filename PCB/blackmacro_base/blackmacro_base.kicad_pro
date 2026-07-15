@@ -76,7 +76,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|149104932|133689163|6c2244c9-36cc-4924-8e32-7e8b4a37063f|7e0ec566-aa13-46ba-974b-c4d21ea72f96",
+          "qr code is fine"
+        ],
+        [
+          "clearance|150876000|133985000|7e0ec566-aa13-46ba-974b-c4d21ea72f96|c86b5e56-de19-4b49-8106-38e5895b77ec",
+          "qr code is fine"
+        ],
+        [
+          "clearance|151638000|140208000|46658f7d-6691-42b8-9142-670dbe6dc2a6|7e0ec566-aa13-46ba-974b-c4d21ea72f96",
+          "qr code is fine"
+        ],
+        [
+          "clearance|152983836|133341116|2bdc4563-40e6-4482-a579-8efccc9be1b2|7e0ec566-aa13-46ba-974b-c4d21ea72f96",
+          "qr code is fine"
+        ],
+        [
+          "clearance|153983288|133321390|7e0ec566-aa13-46ba-974b-c4d21ea72f96|a940e471-1f6d-447d-9799-e359b870e7b0",
+          "qr code is fine"
+        ],
+        [
+          "clearance|155194000|134493000|3039a2d8-ee0a-4fe7-90e5-626a51479205|7e0ec566-aa13-46ba-974b-c4d21ea72f96",
+          "qr code is fine"
+        ],
+        [
+          "clearance|155909863|132864404|6801e904-fb2c-49a4-a685-0733b03bf972|7e0ec566-aa13-46ba-974b-c4d21ea72f96",
+          "qr code is fine"
+        ],
+        [
+          "clearance|157000000|137115387|7e0ec566-aa13-46ba-974b-c4d21ea72f96|b5247641-7ee1-4195-a2c8-47080fb53c53",
+          "qr code is fine"
+        ],
+        [
+          "clearance|157147718|142000000|7e0ec566-aa13-46ba-974b-c4d21ea72f96|d1cb037a-6637-41bb-927a-46a044bddc69",
+          "qr code is fine"
+        ],
+        [
+          "clearance|161036000|142764695|4acb7a9f-b816-469c-a5f8-66654588b546|7e0ec566-aa13-46ba-974b-c4d21ea72f96",
+          "qr code is fine"
+        ],
+        [
+          "clearance|161072372|140970000|7e0ec566-aa13-46ba-974b-c4d21ea72f96|f894ab3e-42e0-48e5-9064-318403ea7482",
+          "qr code is fine"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -158,7 +203,7 @@
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.3,
