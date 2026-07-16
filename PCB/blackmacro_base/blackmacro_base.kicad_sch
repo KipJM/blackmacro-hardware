@@ -29962,7 +29962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm"
+		(property "Footprint" "footprints:Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm"
 			(at 215.9 78.74 0)
 			(hide yes)
 			(show_name no)
