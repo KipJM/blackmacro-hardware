@@ -8,7 +8,7 @@
 	(property "Reference" "U4"
 		(at 0 -2.026 180)
 		(layer "F.SilkS")
-		(uuid "646afc16-f1d0-42c3-98bc-0917d5c3722f")
+		(uuid "4e9452f9-eb14-4dc8-bfa6-b03ec626d924")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "BQ27427"
 		(at 0 1.79 180)
 		(layer "F.Fab")
-		(uuid "fa9f6eac-36bf-462d-8e7d-d55304cf1407")
+		(uuid "92c11b03-97dd-4a97-90a0-6ec651af1f2e")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a77b311b-a1bf-4c79-91be-5ff1c47d6602")
+		(uuid "db485fc9-84fc-4504-b879-110084f538c0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c4823904-9176-40ea-acb2-7055d37fc21d")
+		(uuid "1a8b33f5-443a-4d66-b395-cb3585fc09f6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "01381003-a663-4a86-b323-04cf95658daf")
+		(uuid "b817f7c9-08f3-497f-b03e-e3443acd3b4d")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "57502802-22aa-4ea1-b448-fdd2e1662301")
+		(uuid "6122f52b-5498-474b-86c1-1b20d0cbfe48")
 	)
 	(fp_line
 		(start -0.525 -0.9)
@@ -84,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "404a0fda-f468-4ed3-86a6-7789df35782c")
+		(uuid "3cc9d7d5-b642-4858-8217-44fe0a328728")
 	)
 	(fp_line
 		(start 0.92 -0.9)
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4787b07c-5543-4543-a324-8aaf8cfd6690")
+		(uuid "59e128d7-53a7-43d5-859d-9db0ab74312d")
 	)
 	(fp_line
 		(start 0.92 0.9)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9a9a4727-1739-4876-b03a-ed739ff79286")
+		(uuid "7b8b1a40-f069-48f5-a2ed-125a9b7521a7")
 	)
 	(fp_poly
 		(pts
@@ -116,7 +116,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b09a97c7-f116-445d-abbc-a0623b42a7e1")
+		(uuid "aaf31a53-397a-419b-ada5-8f5b1b8f190a")
 	)
 	(fp_rect
 		(start -1.81 -1.79)
@@ -127,7 +127,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c738adb7-7756-4740-a8c2-4e8a6210d6b1")
+		(uuid "46c468f8-8240-49c4-be99-64382b4caf37")
 	)
 	(fp_line
 		(start -0.81 -0.395)
@@ -137,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "724147ac-dbf8-4378-8d87-59b6a37b97d0")
+		(uuid "8ba5bf8b-1520-457e-8597-0222e03b4630")
 	)
 	(fp_line
 		(start -0.81 0.79)
@@ -147,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a1586fdc-e0b8-4443-858f-9d8601dbb5ae")
+		(uuid "49c19625-8284-4eea-b69f-4ad2c9daef0a")
 	)
 	(fp_line
 		(start -0.415 -0.79)
@@ -157,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "35767932-c2af-4613-8ec5-4dde02b89886")
+		(uuid "50a71bce-714d-4d27-972b-a3f581a78d51")
 	)
 	(fp_line
 		(start 0.81 -0.79)
@@ -167,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2079f7ad-1254-4d57-b22c-2634c5f52e6c")
+		(uuid "a683cec2-3f3d-441e-bf9e-ba8c57f60bfa")
 	)
 	(fp_line
 		(start 0.81 0.79)
@@ -177,12 +177,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0f4b3f01-b906-4190-a956-026aee075a81")
+		(uuid "fad01567-ce57-4444-b760-25017aadf1e0")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "be6bd159-377e-46ab-b05b-92ffaaf86e5b")
+		(uuid "df321fcc-de95-4e6b-b570-a57a852dba44")
 		(effects
 			(font
 				(size 0.38 0.38)
@@ -192,7 +192,7 @@
 	)
 	(pad "A1" smd circle
 		(at -0.5 -0.5)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -206,11 +206,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d532c1ad-e2d8-434b-bbe4-6341a33f8c7b")
+		(uuid "7ea9a39b-71ed-47ba-b71b-04d8dc3a2ed7")
 	)
 	(pad "A2" smd circle
 		(at 0 -0.5)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -224,11 +224,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "35743ebe-4592-475c-8369-61728e2493c6")
+		(uuid "b3d0d3c8-4163-4a06-9a61-d7100f2120cb")
 	)
 	(pad "A3" smd circle
 		(at 0.5 -0.5)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -242,11 +242,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d0ae4bea-c457-4cb5-bcd9-33be77b3676a")
+		(uuid "d04014dd-7660-4eb7-9e7f-0abda4cc627a")
 	)
 	(pad "B1" smd circle
 		(at -0.5 0)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -260,11 +260,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "15cda813-9e1b-46da-bd1c-95e8a7065562")
+		(uuid "461f3092-a630-4a47-b228-c47741a86a74")
 	)
 	(pad "B2" smd circle
 		(at 0 0)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -278,11 +278,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "0e0b833f-3092-4ee7-aade-f9bfc4646f02")
+		(uuid "accd835b-8525-4b7c-a162-6e2dd91a9f9e")
 	)
 	(pad "B3" smd circle
 		(at 0.5 0)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -296,11 +296,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "40e8147f-4292-4467-bd4b-1851bb88deaf")
+		(uuid "6da3d090-de9d-4da2-9870-ba627bf49abc")
 	)
 	(pad "C1" smd circle
 		(at -0.5 0.5)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -314,11 +314,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d0db3f14-9e45-4480-aca6-6a13220e2aac")
+		(uuid "ef885e4e-1667-49f3-a19f-776331fa3daf")
 	)
 	(pad "C2" smd circle
 		(at 0 0.5)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -332,11 +332,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "81b0f7f7-6d33-4aeb-8777-caa3484e1967")
+		(uuid "9996906f-5d4d-473d-a330-ec4eccc26535")
 	)
 	(pad "C3" smd circle
 		(at 0.5 0.5)
-		(size 0.25 0.25)
+		(size 0.3 0.3)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
@@ -350,7 +350,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8f41b20c-f742-46d6-a139-10c1500531b5")
+		(uuid "13422a5f-0768-4b29-b003-631e5d0d7ab2")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm.step"
