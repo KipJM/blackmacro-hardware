@@ -1,4 +1,4 @@
-# BMacro V2
+# BMacro V2 (Blackmacro hardware)
 ![zine.png](promo/zine.png)
 
 > # V2 is incomplete!
