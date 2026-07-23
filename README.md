@@ -1,9 +1,9 @@
-# BMacro
+# BMacro V2
 ![zine.png](promo/zine.png)
 
-> # V2 is work in progress!
-> the master branch hosts the V2 version of bmacro, which is currently unfinished. If you want to build a bmacro keyboard right now,
-> switch to branch #v1 for the old, usb-only version.
+> # V2 is incomplete!
+> While the PCB designs are complete, the case and readme has not been updated to the latest version yet.
+> Proceed with caution! However I do not recommend building V1 anymore, as it also includes a critical wiring error with the logic shifter.
 
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
@@ -37,13 +37,17 @@ but it can also emulate other inputs, such as smooth scrolling, volume control, 
 # License
 This project is licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal.
 
-Copyright (c) KIP 2026.
+Copyright © KIP 2026.
+
+**Any individual or corporate entity are strictly forbidden from training "generative AI" analytical neural networks (LLMs, etc.) on contents of this project.**
+
+Selling fabricated hardware of this project as-is is strongly discouraged. Please reach out to me at [kip@kip.gay](mailto://kip@kip.gay).
 
 # Folder Structure
 This project is made up of two PCBs and a case. The PCB project and production files can be found inside each board's folder within PCB/. For Bill of Materials, please also see each board's respective bom/bom.csv.
 
 # BOM
-You can find a merged BOM of all parts at the root of this project, however for more info please see the board-specific BOMs.
+You can find a merged BOM of all parts at the root of this project, however for more info please see the board-specific BOMs. The master BOM might be incorrect.
 
 Bill of materials are separated by boards, please see `bom.csv` within the the bom/ folder of each PCB. `Quantity` is the amount of that part used on this board, `Actual Total Cost` represent the amount I spent to satify the entire project's needs on that particular component, so it's influenced by my inventory, regional price differences, and discounts, so it should only serve as a rough estimate of how much the project's gonna cost you. If "-" is in place of the price entry, it means the price has already been listed elsewhere (or on another BOM).
 
@@ -86,21 +90,33 @@ I recommend setting it to SIG, if set to 3V3, the motor driver will stay on as l
 
 The base board is designed with hotswap connectors, but the holes are plated so you technically can directly solder switches onto it.
 
-You'll find a few additional interesting features on the base board:
-- **The cutout:** the board is designed to work with a USB-C Pico **2W** clone board, for the best Bluetooth performance,
-the pcb is cut out under and in front of the pico's antenna. The board's design is probably overkill, I'll probably optimize it in V2.
-- **The shape:** The space under the pico is reserved for a battery in version 2 of this project. Due to the increased complexity
-and cost battery monitoring and its powerchain would add to this project, battery support has been delegated to a potential V2 of this project.
-- **The 5.1K adapter:** There is a space above the pico intended for you to glue on a 5.1k usb-c adapter. Type-C Pico 2W clone boards basically all come from one
-factory, and its designer forgot to add the 5.1k resistor on its CC pin to enable C-to-C connection and a higher current limit. If you omit the adapter, you'll only be able to connect
-to the keyboard with an A-to-C cable. You can find extremely cheap 5.1k type-c enabler/adapters on Aliexpress (which also seem that all come from one factory) 
-Extract the adapter, connect it to the pico, and glue it onto the PCB with double-sided tape. This is cheaper than fabbing a PCB and sourcing the resistors yourself.
+> ## Make sure you're building the 11-2-fab2 or later versions of this board!
+> 10-2-fab1, the initially fabricated version that I built this project on, includes a critical error with the logic shifter circuitry.
+> If you built the 10-2-fab1 version, you'll have to remove the `C4` and `C5` capacitors and replace them with solder bridges, otherwise your LEDs won't work.
 
-I recommend fabbing the base PCB in white for better RGB LED performance.
+A few notable features of the base board:
+- **The cutout:** the board is designed to work with a Pi Pico 2W. For the best Bluetooth performance,
+the pcb is cut out under the pico's antenna.
+- **Battery charging:** This board uses the HTP4056, a modified clone of the TP4056 that allows for a higher charging current.
+- **USB**: The pico features three rectangular testpoints on the bottom for USB connections. To make this board hand solderable,
+These TPs are connected through THTs. After soldering the pico to the board, fill the THTs with solder (use more than you would), then verify with a multimeter
+that they have been soldered correctly. **This also means that the board is not full-SMT friendly. Beware!**
+- **Stabilizers:** Screw-in stabilizers recommended. You'll need to get two 2U and one 3U steel wire.
+- **Keycaps:** **16** 1U, **2** 1.5U, **2** 2U, **1** 3U.
+- **MagEnc:** Most pins are unused. However, for extra rigidity terminate the other wires too!
+- **Battery:** You'll have to terminate the battery leads into the JST connector. The top pin is unused.
+- **Battery temperature probe:** For the NTC temperature probe, route its wires through the strain-relief so the leads
+are inserted from the top of the board, and the probe should be at the bottom. Then tape the probe onto the battery with heat-resistant tape (safe at 40C min.)
 
-When making the board interconnect cables, MAKE SURE the polarity is correct so that the correct pins are connected. You can see silkscreen showing reference pins.
+I recommend fabbing the base PCB in white for better RGB LED performance. _(plus it just looks better)_
 
-A stencil is not required, but flux/solder paste is recommended.
+This board includes a 16-pin type-C port, DSBGA-9, and ESOP, which are hard to solder and requires a hotplate. I therefore recommend
+getting partial PCBA for them and basic components.
+
+When making the board interconnect cables, MAKE SURE the polarity is correct so that the correct pins are connected.
+You can see silkscreen showing reference pins.
+
+A stencil or hotplate is not required if you got partial PCBA, but flux/solder paste is highly recommended.
 
 # 3D printed parts
 Parts list:
@@ -133,11 +149,16 @@ The resellers use the same three images on their listings, lookup "2806 bldc" / 
 # Firmware
 For now, please see https://github.com/KipJM/blackmacro-lib.
 
+WIP full firmware is at https://github.com/KipJM/blackmacro-firmware.
+
 # References
 - https://github.com/shaise/DiSE
 - https://github.com/scottbez1/smartknob
 - https://github.com/dmcke5/Hapticpad
+---
 
-This project is not affiliated with or endorsed by Blackmagicdesign and Davinci Resolve. This is not an official product.
+This project is not affiliated with or endorsed by Blackmagicdesign and Davinci Resolve.
 
-**KIP**
+Bmacro _(a.k.a. Blackmacro keyboard)_ is a fully original electronics hardware designed and fabricated by me, **KIP**. I am licensing this project under the CERN Open Hardware License Version 2 - Weakly Reciprocal. I reserve its copyright and the right to sell this hardware and its designs.
+
+_Copyright © 2026_ **KIP**

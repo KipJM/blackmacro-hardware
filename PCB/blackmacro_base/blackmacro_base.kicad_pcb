@@ -9,9 +9,11 @@
 	(paper "A4")
 	(title_block
 		(title "Bmacro Base V2")
-		(date "2026-07-17")
-		(rev "10-2-FAB1")
+		(date "2026-07-23")
+		(rev "11-2-FAB2")
 		(company "KIP")
+		(comment 1 "Fxied critical capacitor wiring issues.")
+		(comment 2 "Designed for hand soldered picos! Not fully SMT friendly.")
 	)
 	(layers
 		(0 "F.Cu" signal)
