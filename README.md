@@ -3,7 +3,7 @@
 
 > # V2 is incomplete!
 > While the PCB designs are complete, the case and readme has not been updated to the latest version yet.
-> Proceed with caution! However I do not recommend building V1 anymore, as it also includes a critical wiring error with the logic shifter.
+> Proceed with caution! However I do not recommend building V1 anymore, it is unmaintained and includes a critical wiring error with the logic shifter.
 
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
