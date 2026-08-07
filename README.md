@@ -1,10 +1,16 @@
 # BMacro V2
 ![zine.png](promo/zine.png)
 
-> # V2 Is Work in Progress!
-> While all the project and fabrication files are fully finished, I have not fully tested them yet. 
-> Beware that the BOM and README has not been updated yet!
-> Proceed with caution! However I do not recommend building V1 anymore, as it includes a critical wiring error with the logic shifter.
+> # V2 is Ready for Release!
+> If you wanna build one yourself, you can do so now!
+> 
+> ### This project took me _**234**_ hours of work to create.
+> Donations to my Ko-Fi would be highly appreciated! It'll support me to continue updating my project and its firmware.
+> 
+> ### **You can support me at: https://kip.gay/support**
+
+> Additionally, if you're perhaps interested in purchasing an assembled blackmacro keyboard, let me know in github issues!
+> I'd love to see if it's possible to mass manufacture this thing to bring costs down.
 
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
@@ -17,7 +23,11 @@ The 2u and 1.5u in/out clips/timeline keys also feature screw-mount stabilizers.
 The jog wheel is driven by a FOC-controlled brushless DC motor and a magnetic angle encoder, allowing for user-definable
 haptic feedback and buttery smooth scrolling when working through your video timeline.
 
-#### This hardware is purpose-built for blackmacro-lib. For more information on the purpose of this device, see [blackmacro-lib](https://github.com/KipJM/blackmacro-lib).
+**It costs ~180 USD to create one blackmacro keyboard.**
+
+> #### This hardware is purpose-built for blackmacro-lib. For more information on the purpose of this device, see [blackmacro-lib](https://github.com/KipJM/blackmacro-lib).
+> #### For the firmware of this device, see [blackmacro-firmware](https://github.com/KipJM/blackmacro-firmware).
+
 ![Assembly_opaque_render.png](promo/Assembly_opaque_render.png)
 ![Assembly-trans-render.png](promo/Assembly-trans-render.png)
 > ### Name
@@ -219,9 +229,7 @@ The resellers use the same three images on their listings, lookup "2806 bldc" / 
 ![motor.png](promo/motor.png)
 
 # Firmware
-For now, please see https://github.com/KipJM/blackmacro-lib.
-
-WIP full firmware is at https://github.com/KipJM/blackmacro-firmware.
+Firmware is hosted at a separate repository. See https://github.com/KipJM/blackmacro-firmware.
 
 # References
 - https://github.com/shaise/DiSE
