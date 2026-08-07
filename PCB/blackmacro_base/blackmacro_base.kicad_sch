@@ -9432,6 +9432,16 @@
 		)
 		(uuid "2e42d5bc-5da5-4a03-bcf1-4cc099628ded")
 	)
+	(text "TODO: investigate proper direction"
+		(exclude_from_sim no)
+		(at 355.092 46.482 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "2f91c9b6-5ecc-4ce6-bff9-5cace311d19b")
+	)
 	(text "Defaults to 2.5A limit"
 		(exclude_from_sim no)
 		(at 472.186 55.118 0)
@@ -19205,8 +19215,7 @@
 	)
 	(symbol
 		(lib_id "custom:AO3415")
-		(at 351.79 62.23 270)
-		(mirror x)
+		(at 351.79 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19216,7 +19225,7 @@
 		(dnp no)
 		(uuid "03f4171f-cbf3-4b68-87b0-a49917f197e2")
 		(property "Reference" "Q1"
-			(at 351.7265 53.34 90)
+			(at 351.8535 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19226,7 +19235,7 @@
 			)
 		)
 		(property "Value" "AO3415"
-			(at 351.7265 55.88 90)
+			(at 351.8535 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19236,7 +19245,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 349.885 57.15 0)
+			(at 353.695 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19249,7 +19258,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/192491.html"
-			(at 347.98 57.15 0)
+			(at 355.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26981,7 +26990,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5cf9db5d-9ef3-4067-8b8a-92a28d94dc9e")
 		(property "Reference" "Q2"
 			(at 351.8535 73.66 90)

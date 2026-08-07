@@ -1,16 +1,18 @@
 # BMacro V2
 ![zine.png](promo/zine.png)
 
-> # V2 is incomplete!
-> While the PCB designs are complete, the case and readme has not been updated to the latest version yet.
-> Proceed with caution! However I do not recommend building V1 anymore, as it also includes a critical wiring error with the logic shifter.
+> # V2 Is Work in Progress!
+> While all the project and fabrication files are fully finished, I have not fully tested them yet. 
+> Beware that the BOM and README has not been updated yet!
+> Proceed with caution! However I do not recommend building V1 anymore, as it includes a critical wiring error with the logic shifter.
 
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
 Supports remappable keyboard input, smooth scrolling, MIDI input, or
 driverless Davinci Resolve control through reverse-engineered HID emulation.
 
-Each key is a hotswappable MX-style plateless switch with a reverse-mounted addressable RGB LED. The 2u and 1.5u in/out clips/timeline keys also feature screw-mount stabilizers.
+Each key is a hotswappable MX-style plateless switch with a reverse-mounted addressable RGB LED.
+The 2u and 1.5u in/out clips/timeline keys also feature screw-mount stabilizers.
 
 The jog wheel is driven by a FOC-controlled brushless DC motor and a magnetic angle encoder, allowing for user-definable
 haptic feedback and buttery smooth scrolling when working through your video timeline.
@@ -42,6 +44,35 @@ Copyright © KIP 2026.
 **Any individual or corporate entity are strictly forbidden from training "generative AI" analytical neural networks (LLMs, etc.) on contents of this project.**
 
 Selling fabricated hardware of this project as-is is strongly discouraged. Please reach out to me at [kip@kip.gay](mailto://kip@kip.gay).
+
+# Features
+- 21 MX-style south-facing hotswap sockets
+- Fully addressable RGB backlight LED for each key
+- 2 Alps-style rotary encoder with click input
+
+
+- High fidelity jog dial powered by the MT6701 magnetic encoder, **accurate to 0.02 degrees**
+- BLDC Motorized jog dial power by the TMC6300 motor driver, providing dynamic haptic feedback
+
+
+- 6000mAh built-in battery, enough battery life for over 40 hours of **non-stop usage**
+- Efficient power management
+- Seamless power handoff when disconnecting/connecting USB
+
+
+- **An actual power switch**
+- USB-Type C input
+
+
+- Sandwich-mount style case
+- Cool PCB designs :)
+
+
+- Powered by Raspberry Pi Pico 2W
+- Original moddable firmware
+- Native compatibility with Davinci Resolve (unofficial)
+- Wide HID emulation capability, can also act as a mouse/keyboard/game controller/MIDI device
+- Bluetooth & WLAN capable
 
 # Folder Structure
 This project is made up of two PCBs and a case. The PCB project and production files can be found inside each board's folder within PCB/. For Bill of Materials, please also see each board's respective bom/bom.csv.
@@ -88,7 +119,7 @@ I recommend setting it to SIG, if set to 3V3, the motor driver will stay on as l
 | ![base_pcb_front.png](promo/base_pcb_front.png)  | ![base_pcb_back.png](promo/base_pcb_back.png) |
 |  ![base_3d_front.png](promo/base_3d_front.png)   |  ![base_3d_back.png](promo/base_3d_back.png)  |
 
-The base board is designed with hotswap connectors, but the holes are plated so you technically can directly solder switches onto it.
+The base board is designed for hotswap connectors, but the holes are plated so you technically can directly solder switches onto it.
 
 > ## Make sure you're building the 11-2-fab2 or later versions of this board!
 > 10-2-fab1, the initially fabricated version that I built this project on, includes a critical error with the logic shifter circuitry.
@@ -122,19 +153,60 @@ A stencil or hotplate is not required if you got partial PCBA, but flux/solder p
 Parts list:
 - Case bottom
 - Case top
+- Plate
 - (optional) jog wheel
 
-### Case
-![case_snap.png](promo/case_snap.png)
-The top and bottom part of the case is designed to be snapped shut without the need of any fasteners. Cuts are put into the snap connector to prevent cracking, but you may
-need to add more cuts depending on the material you're using (designed for PLA+, aka more flexible PLA).
+> #### INFO!
+> I do not recommmend printing the case, especially the plate, using PLA+ or regular PLA,
+> It will sound very pingy!
+>
+> Instead, consider getting them fabricated using resin, laser-cut POM/Sheet metal, or CNC'd aluminium. 
 
-For the case bottom, you'll need to melt heatset inserts into the poles to mount the pcbs. Ensure you're using M3 inserts for the base portion, and
-M2 inserts for the dial PCB.
+# Case & Assembly
+![case_clip.png](promo/case_clip.png)
+The case uses a sandwich-style mechanical keyboard mounting setup, with special modifications for the the jog wheel.
+
+The `Assembly V2` Fusion 360 archive file contains all mounting details, including fasteners and heat-set inserts. Use
+that as assembly reference.
+
+### Switches
+Should be the same as any mechanical keyboard. Search online for mech keyboard assembly guides.
+
+### Heat-set Inserts, Standoffs, and Screws
+This project uses two types of M2 screws, one type of M2 standoff, and one type of M2 heat-set inserts.
+
+The specifications of each part is carefully chosen, make sure you get fasteners with the exact same specs.
+
+### Battery
+After taping the NTC temperature probe to the top side of the battery, apply double-sided foam tape
+onto the battery compartment of the bottom case. Stick the battery onto the tape, and apply padding onto the compartment
+walls if necessary.
+
+### Assembly Order
+After the heat-set inserts are installed, assemble the device in the following order:
+1. I recommend driving the screws through the holes once before to drive out any excess support material.
+2. Install screw-mounted stabs onto the PCB
+3. Assemble all switches onto the plate
+4. Tape the battery to the bottom case
+5. install the dial board onto the case using standoffs
+6. connect the pcb to the battery
+7. preconnect all interconnect cables onto the dial board, leaving the base-side hanging.
+8. snap the plate onto the pcb, install the pcb into the bottom case
+9. connect all interconnect cables
+10. screw in the four dial board mounting screws on the plate
+11. install the OLED display
+12. install the top case
+13. screw in all six screws from the bottom, stop when the case is sealed shut.
+
+### Sound
+If printed out of PLA+, the keyboard will sound very pingy and hollow when assembled.
+Fill the cavity in the case with foam, and consider doing tape/polyfil mods.
 
 ### Jog wheel
-The jog wheel is optional, but if you do choose to print it, just add glue (or double sided tape) on the underside of the wheel, then stick it onto the motor
+The jog wheel case is optional, but if you do choose to print it, just add glue (or double sided tape) on the underside of the wheel, then stick it onto the motor
 by aligning the three screw pins. There is no need to use screws. You may want to sand the divet portion depending on your layer height settings.
+
+If it doesn't fit, you can also clip off thez alignment pins on the part.
 
 # The Motor
 Unfortunately, there is no information on the manufacturer or datasheet of the motor used in this project. It seems to be from a leftover stock of motors that many small AliExpress vendors are reselling.
