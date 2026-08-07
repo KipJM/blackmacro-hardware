@@ -80,9 +80,11 @@ This project is made up of two PCBs and a case. The PCB project and production f
 # BOM
 You can find a merged BOM of all parts at the root of this project, however for more info please see the board-specific BOMs. The master BOM might be incorrect.
 
-Bill of materials are separated by boards, please see `bom.csv` within the the bom/ folder of each PCB. `Quantity` is the amount of that part used on this board, `Actual Total Cost` represent the amount I spent to satify the entire project's needs on that particular component, so it's influenced by my inventory, regional price differences, and discounts, so it should only serve as a rough estimate of how much the project's gonna cost you. If "-" is in place of the price entry, it means the price has already been listed elsewhere (or on another BOM).
+Bill of materials are separated by boards, please see `bom.csv` within the the bom/ folder of each PCB. `Quantity` is the amount of that part used on this board, `Actual Total Cost` represent the amount I spent to satisfy the entire project's needs on that particular component, so it's influenced by my inventory, regional price differences, and discounts, so it should only serve as a rough estimate of how much the project's gonna cost you. If "-" is in place of the price entry, it means the price has already been listed elsewhere (or on another BOM).
 
 Also note that any `LCSC #` values you find in the KiCAD project are likely incorrect!
+
+3D printed part cost is calculated based on JLC3DP.
 
 # Electronics
 The project is made up of two boards:
@@ -203,10 +205,8 @@ If printed out of PLA+, the keyboard will sound very pingy and hollow when assem
 Fill the cavity in the case with foam, and consider doing tape/polyfil mods.
 
 ### Jog wheel
-The jog wheel case is optional, but if you do choose to print it, just add glue (or double sided tape) on the underside of the wheel, then stick it onto the motor
-by aligning the three screw pins. There is no need to use screws. You may want to sand the divet portion depending on your layer height settings.
-
-If it doesn't fit, you can also clip off thez alignment pins on the part.
+The jog wheel is designed to be CNC machined.
+Use countersunk screws to install the dial onto the motor.
 
 # The Motor
 Unfortunately, there is no information on the manufacturer or datasheet of the motor used in this project. It seems to be from a leftover stock of motors that many small AliExpress vendors are reselling.

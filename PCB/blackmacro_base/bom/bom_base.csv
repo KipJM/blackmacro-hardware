@@ -42,29 +42,4 @@ N/A,SMT Assembly,N/A,1,blackmacro_base SMT,N/A,137.44
 "SW_LA1, SW_LA2",SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_2u,2,2u XDA keycap,N/A,8.74
 SW_LE2,SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_3u,1,3u XDA keycap,N/A,8.8
 "SW_RA1, SW_RA2",SW_Push_45deg,SW_Hotswap_Kailh_MX_Plated_1.5u,2,1.5u XDA keycap,N/A,3.76
-"C1, C2, C3, C5, C6",0.1uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,5,CL31B104KBCNNNC,https://item.szlcsc.com/25237.html?spm=sc.ols.it0-3&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,4.67
-C4,22uF,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,CL32A226KAJNNNE,https://item.szlcsc.com/53320.html?spm=sc.ols.it0-2&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,1.71
-U1,MT6701CT,SO-8_3.9x4.9mm_P1.27mm,1,MT6701CT-STD-R,https://item.szlcsc.com/3489938.html?spm=sc.ols.it0-5&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,7.23
-U2,TMC6300,QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias_LargerViaHoles,1,TMC6300-LA-T,https://item.szlcsc.com/6005328.html?spm=sc.ols.it0-4&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,27.6
-"J1, J2",N/A,JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal,2,PH-8AWD,https://item.szlcsc.com/21938977.html?spm=sc.ols.it0-8&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,2.82
-"J3, J4",N/A,JST_EH_S3B-EH_1x03_P2.50mm_Horizontal,2,EH-3AWD,https://item.szlcsc.com/23924585.html?spm=sc.ols.it0-9&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,1.79
-N/A,N/A,"Plastic housing, JST EHR-3",2,EHR-3,https://item.szlcsc.com/173041.html?spm=sc.ols.it0-6&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,3.69
-N/A,N/A,"Plastic housing, JST PHR-8",2,PHR-8,https://item.szlcsc.com/169298.html?spm=sc.ols.it0-7&lcsc_vid=QAdZAgIAEQJaBAICEQBZBFBXFVNcVAVSQgNaBQYAQVgxVlNeRlNZX1JVQFheVjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,3.55
-N/A,BLDC Motor,N/A,1,2804,"Lookup 2804 on Aliexpress, resellers use the same three images (see README)",14
-N/A,PCB & Stencil,N/A,1,blackmacro_dial,N/A,73
-N/A,Standoffs,M2*9+4,3,N/A,Search around on Aliexpress or your local hardware store,1.99
-N/A,Screws,M2*6 flat top philips,7,N/A,Search around on Aliexpress or your local hardware store. Flat top is not required but highly recommended!,3.66
-N/A,JST EH connector crimps,EH,50,EH-T,https://item.szlcsc.com/23924668.html?spm=sc.ct.xh.11.c___sc.ols.hd.c2&lcsc_vid=TlILAlVSEgRXVFVfFVhbXgZUEVRZU1FSRAcIVlZeT1kxVlNeRlRcUVBXTllcUjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,2.69
-N/A,JST BH connector Crimps,BH,50,BX-PH2.0-DZ,https://item.szlcsc.com/19218392.html?spm=sc.ct.xh.10.c___sc.ols.hd.c2&lcsc_vid=TlILAlVSEgRXVFVfFVhbXgZUEVRZU1FSRAcIVlZeT1kxVlNeRlRcUVBXTllcUjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,2.18
-N/A,N/A,Case Bottom,1,3D Printed,N/A,N/A
-N/A,N/A,Case Top,1,3D Printed,N/A,N/A
-N/A,N/A,Plate,1,Resin 3D Print/Steel plate,N/A,N/A
-N/A,N/A,Switch,1,Resin 3D Print,N/A,N/A
-N/A,N/A,Jog Wheel,1,CNC Aluminum,N/A,137.48
-N/A,N/A,M2*6 Screw,3,"M2*6, countersunk",N/A,1.21
-N/A,N/A,Foam,1,Poron foam 3mm;52cm*15cm,N/A,15
-N/A,N/A,M2*6 Screw,3,M2*6 philips,N/A,2.66
-N/A,N/A,M2*22 Screw,6,M2*22 philips,N/A,1.83
-N/A,N/A,M2*3*3.5 Heatset-insert,9,M2*3*3.5 Heatset-insert,N/A,0.07
-N/A,N/A,M3*3*4.5 Heatset-insert,9,M3*3*4.5 Heatset-insert,N/A,1.84
-,,,,"",TOTAL,861.0388
+,,,,,TOTAL,550.3688
