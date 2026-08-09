@@ -14,6 +14,8 @@
 
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
+### This keyboard's jog wheel gives you smooth analog control over the Davinci Resolve playhead, which is only possible on this keyboard or the official Speed Editor.
+
 Supports remappable keyboard input, smooth scrolling, MIDI input, or
 driverless Davinci Resolve control through reverse-engineered HID emulation.
 
