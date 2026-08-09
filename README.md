@@ -1,5 +1,5 @@
 # BMacro V2
-![zine.png](promo/zine.png)
+![zine.png](promo/zine2.png)
 
 > # V2 is Ready for Release!
 > If you wanna build one yourself, you can do so now!
@@ -28,8 +28,10 @@ haptic feedback and buttery smooth scrolling when working through your video tim
 > #### This hardware is purpose-built for blackmacro-lib. For more information on the purpose of this device, see [blackmacro-lib](https://github.com/KipJM/blackmacro-lib).
 > #### For the firmware of this device, see [blackmacro-firmware](https://github.com/KipJM/blackmacro-firmware).
 
-![Assembly_opaque_render.png](promo/Assembly_opaque_render.png)
-![Assembly-trans-render.png](promo/Assembly-trans-render.png)
+![blackmacro-render1.jpg](promo/blackmacro-render1.jpg)
+![blackmacro-render1b.jpg](promo/blackmacro-render1b.jpg)
+![blackmacro-render3.webp](promo/blackmacro-render3.webp)
+
 > ### Name
 > Help me pick a better name for this thing...
 
@@ -124,6 +126,7 @@ There are two solder jumpers letting you select how the motor controller chip sh
 I recommend setting it to SIG, if set to 3V3, the motor driver will stay on as long as there's power, and the MCU cannot command it to go to sleep through the SIG pin.
 
 ## Base board
+![base_photo.jpg](promo/base_photo.jpg)
 ![base_sch.png](promo/base_sch.png)
 
 |                                                  |                                               |
@@ -235,9 +238,17 @@ Firmware is hosted at a separate repository. See https://github.com/KipJM/blackm
 - https://github.com/shaise/DiSE
 - https://github.com/scottbez1/smartknob
 - https://github.com/dmcke5/Hapticpad
+
 ---
 
+
+
 This project is not affiliated with or endorsed by Blackmagicdesign and Davinci Resolve.
+
+Rendered in Blender Cycles with openimagedenoise. Please excuse any denoising artifacts.
+
+Davinci Resolve Compatibility is achieved through my project [blackmacro-lib](https://github.com/KipJM/blackmacro-lib).
+It emulates a Speed Editor keyboard's HID protocols without decompilation of any blackmagic software/firmware.
 
 Bmacro _(a.k.a. Blackmacro keyboard)_ is a fully original electronics hardware designed and fabricated by me, **KIP**. I am licensing this project under the CERN Open Hardware License Version 2 - Weakly Reciprocal. I reserve its copyright and the right to sell this hardware and its designs.
 
