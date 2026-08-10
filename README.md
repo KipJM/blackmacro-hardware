@@ -247,7 +247,7 @@ Firmware is hosted at a separate repository. See https://github.com/KipJM/blackm
 
 This project is not affiliated with or endorsed by Blackmagicdesign and Davinci Resolve.
 
-Rendered in Blender Cycles with openimagedenoise. Please excuse any denoising artifacts.
+Promo images rendered in Blender Cycles with openimagedenoise, please excuse any denoising artifacts. Yes the images are 8k and like 5mB, no I'm not sorry.
 
 Davinci Resolve Compatibility is achieved through my project [blackmacro-lib](https://github.com/KipJM/blackmacro-lib).
 It emulates a Speed Editor keyboard's HID protocols without decompilation of any blackmagic software/firmware.
