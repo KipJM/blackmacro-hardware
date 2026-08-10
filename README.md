@@ -1,16 +1,15 @@
 # BMacro V2
 ![zine.png](promo/zine2.png)
 
-> # V2 is Ready for Release!
-> If you wanna build one yourself, you can do so now!
-> 
-> ### This project took me _**234**_ hours of work to create.
+> # This project took me over _*300*_ hours of work to create.
 > Donations to my Ko-Fi would be highly appreciated! It'll support me to continue updating my project and its firmware.
 > 
 > ### **You can support me at: https://kip.gay/support**
 
 > Additionally, if you're perhaps interested in purchasing an assembled blackmacro keyboard, let me know in github issues!
 > I'd love to see if it's possible to mass manufacture this thing to bring costs down.
+
+### [Demo Video](https://youtu.be/7sNWoTAWSeA)
 
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
