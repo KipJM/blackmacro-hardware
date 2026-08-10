@@ -56,10 +56,10 @@ N/A,Standoffs,M2*9+4,3,N/A,Search around on Aliexpress or your local hardware st
 N/A,Screws,M2*6 flat top philips,7,N/A,Search around on Aliexpress or your local hardware store. Flat top is not required but highly recommended!,3.66
 N/A,JST EH connector crimps,EH,50,EH-T,https://item.szlcsc.com/23924668.html?spm=sc.ct.xh.11.c___sc.ols.hd.c2&lcsc_vid=TlILAlVSEgRXVFVfFVhbXgZUEVRZU1FSRAcIVlZeT1kxVlNeRlRcUVBXTllcUjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,2.69
 N/A,JST BH connector Crimps,BH,50,BX-PH2.0-DZ,https://item.szlcsc.com/19218392.html?spm=sc.ct.xh.10.c___sc.ols.hd.c2&lcsc_vid=TlILAlVSEgRXVFVfFVhbXgZUEVRZU1FSRAcIVlZeT1kxVlNeRlRcUVBXTllcUjsOAxUeFF5JWBEPFBcWGBMaSQ4KFE8NCAlJ,2.18
-N/A,N/A,Case Bottom,1,3D Printed,N/A,N/A
-N/A,N/A,Case Top,1,3D Printed,N/A,N/A
-N/A,N/A,Plate,1,Resin 3D Print/Steel plate,N/A,N/A
-N/A,N/A,Switch,1,Resin 3D Print,N/A,N/A
+N/A,N/A,Case Bottom,1,3D Printed,"(ATC is CNC, 10 piece discount price)","2,417.63"
+N/A,N/A,Case Top,1,3D Printed,"(ATC is CNC, 10 piece discount price)",1432.58
+N/A,N/A,Plate,1,Resin 3D Print/Steel plate,(ATC is CNC),283.59
+N/A,N/A,Switch,1,Resin 3D Print,N/A,6.7
 N/A,N/A,Jog Wheel,1,CNC Aluminum,N/A,137.48
 N/A,N/A,M2*6 Screw,3,"M2*6, countersunk",N/A,1.21
 N/A,N/A,Foam,1,Poron foam 3mm;52cm*15cm,N/A,15
@@ -67,4 +67,4 @@ N/A,N/A,M2*6 Screw,3,M2*6 philips,N/A,2.66
 N/A,N/A,M2*22 Screw,6,M2*22 philips,N/A,1.83
 N/A,N/A,M2*3*3.5 Heatset-insert,9,M2*3*3.5 Heatset-insert,N/A,0.07
 N/A,N/A,M3*3*4.5 Heatset-insert,9,M3*3*4.5 Heatset-insert,N/A,1.84
-,,,,"",TOTAL,861.0388
+,,,,"",TOTAL,2985.54

@@ -25,7 +25,7 @@ The 2u and 1.5u in/out clips/timeline keys also feature screw-mount stabilizers.
 The jog wheel is driven by a FOC-controlled brushless DC motor and a magnetic angle encoder, allowing for user-definable
 haptic feedback and buttery smooth scrolling when working through your video timeline.
 
-**It costs ~180 USD to create one blackmacro keyboard.**
+**It costs ~180 USD to create one blackmacro keyboard if not using CNC.**
 
 > #### This hardware is purpose-built for blackmacro-lib. For more information on the purpose of this device, see [blackmacro-lib](https://github.com/KipJM/blackmacro-lib).
 > #### For the firmware of this device, see [blackmacro-firmware](https://github.com/KipJM/blackmacro-firmware).
