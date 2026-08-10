@@ -9,8 +9,6 @@
 > Additionally, if you're perhaps interested in purchasing an assembled blackmacro keyboard, let me know in github issues!
 > I'd love to see if it's possible to mass manufacture this thing to bring costs down.
 
-### [Demo Video](https://youtu.be/7sNWoTAWSeA)
-
 A bluetooth-capable condensed macro keyboard with a motorized jog wheel, powered by a Raspberry Pi Pico 2W.
 
 ### This keyboard's jog wheel gives you smooth analog control over the Davinci Resolve playhead, which is only possible on this keyboard or the official Speed Editor.
@@ -48,6 +46,8 @@ Inspired by the smartknob project, the jog wheel is replaced with a Field Orient
 
 Running the FOSS Blackmacro firmware, bmacro can not only fully emulate all features of the Speed Editor and interface with Davinci Resolve without the need for any drivers,
 but it can also emulate other inputs, such as smooth scrolling, volume control, generic macropad, or MIDI input. Through the rotary encoder knob and the 0.91 inch OLED screen, you can switch between these modes.
+
+[![Demo Video](https://github.com/user-attachments/assets/12881e2c-21f4-4e6e-8689-7fbd5460ae16)](https://www.youtube.com/watch?v=7sNWoTAWSeA)
 
 # License
 This project is licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal.
