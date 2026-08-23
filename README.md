@@ -1,5 +1,5 @@
 # BMacro V2
-![zine.png](promo/zine2.png)
+![zine2b.png](promo/zine2b.png)
 
 > # This project took me over _*300*_ hours of work to create.
 > Donations to my Ko-Fi would be highly appreciated! It'll support me to continue updating my project and its firmware.
